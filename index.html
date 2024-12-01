@@ -1,21 +1,102 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Web Sencilla</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-    </style>
+    <title>Página Compleja con HTML</title>
 </head>
 <body>
-    <h1>Bienvenido a mi página web sencilla</h1>
-    <p>Esta es una página de ejemplo con un diseño muy básico.</p>
-    <a href="https://www.example.com">Visita ejemplo.com</a>
+
+    <!-- Encabezado principal -->
+    <header>
+        <h1>Bienvenido a Mi Página Web Compleja</h1>
+        <p>Esta es una página desarrollada solo con HTML, ¡espera más contenido visual con CSS en el futuro!</p>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de inicio -->
+    <section id="home">
+        <h2>Bienvenido a Nuestra Página</h2>
+        <p>En esta página, aprenderás sobre nuestros servicios y proyectos. Aquí te proporcionamos toda la información que necesitas.</p>
+    </section>
+
+    <!-- Sección sobre nosotros -->
+    <section id="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>Somos una empresa dedicada a brindar soluciones tecnológicas a clientes de todo el mundo. Contamos con un equipo profesional altamente capacitado.</p>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="services">
+        <h2>Servicios</h2>
+        <p>Ofrecemos los siguientes servicios:</p>
+        <ul>
+            <li>Desarrollo Web</li>
+            <li>Consultoría de TI</li>
+            <li>Soporte Técnico</li>
+            <li>Marketing Digital</li>
+        </ul>
+        <p>Pronto, podrás ver más detalles de cada servicio.</p>
+    </section>
+
+    <!-- Tabla con información -->
+    <section id="data">
+        <h2>Tabla de Proyectos</h2>
+        <table>
+            <tr>
+                <th>Proyecto</th>
+                <th>Fecha de Inicio</th>
+                <th>Estado</th>
+            </tr>
+            <tr>
+                <td>Desarrollo Web</td>
+                <td>2024-01-15</td>
+                <td>En Progreso</td>
+            </tr>
+            <tr>
+                <td>Consultoría TI</td>
+                <td>2024-03-01</td>
+                <td>Planificado</td>
+            </tr>
+            <tr>
+                <td>Soporte Técnico</td>
+                <td>2024-04-20</td>
+                <td>Completado</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta, no dudes en enviarnos un mensaje.</p>
+        <form action="#" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Empresa | Todos los derechos reservados</p>
+    </footer>
+
 </body>
 </html>
